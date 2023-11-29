@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 30px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address, .recipient {
+    margin-bottom: 15px;
+}
+
+.recipient {
+    float: right;
+    margin-left: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.subject {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+p:nth-child(6),
+p:nth-child(7),
+p:nth-child(8),
+p:nth-child(9),
+p:nth-child(10) {
+    text-align: justify;
+}
+
+p:last-child strong {
+    color: #1e90ff;
+}
